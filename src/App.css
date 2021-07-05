@@ -13,17 +13,15 @@
   }
 }
 
-.App-header {
+header.App-header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   background-color: #282c34;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  min-height: 100vh;
 }
-
 .App-link {
   color: #61dafb;
 }
@@ -35,4 +33,13 @@
   to {
     transform: rotate(360deg);
   }
+}
+form {
+  display: grid;
+}
+input,
+textarea,
+select,
+button {
+  margin: 3%;
 }
